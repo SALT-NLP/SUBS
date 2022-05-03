@@ -2,7 +2,7 @@
 
 This repo contains codes for the following paper: 
 
-*Jingfeng Yang, Le Zhang, Diyi Yang* SUBS: Subtree Substitution for Compositional Semantic Parsing. (NAACL' 2022)
+*Jingfeng Yang, Le Zhang, Diyi Yang.* SUBS: Subtree Substitution for Compositional Semantic Parsing. (NAACL' 2022)
 
 If you would like to refer to it, please cite the paper mentioned above. 
 
@@ -20,7 +20,7 @@ These instructions will get you running the codes.
 
 Run for SUBS data augmentation:
 ```
-bash run_suns.sh 
+bash run_subs.sh 
 ```
 Run BART or LSTM parser:
 ```
