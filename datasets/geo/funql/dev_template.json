@@ -1,0 +1,60 @@
+{"question": "what states in the united states have a city of springfield ?", "program": "answer ( intersection ( state ( loc_2 ( countryid ( 'usa' ) ) ) , loc_1 ( city ( cityid ( 'springfield', _ ) ) ) ) )"}
+{"question": "what is the highest mountain in the us ?", "program": "answer ( highest ( mountain ( loc_2 ( countryid ( 'usa' ) ) ) ) )"}
+{"question": "what is the most populous state in the us ?", "program": "answer ( largest_one ( population_1 ( state ( loc_2 ( countryid ( 'usa' ) ) ) ) ) )"}
+{"question": "what is the highest point in rhode island ?", "program": "answer ( highest ( place ( loc_2 ( stateid ( 'rhode island' ) ) ) ) )"}
+{"question": "how many people live in washington dc ?", "program": "answer ( population_1 ( cityid ( 'washington', 'dc' ) ) )"}
+{"question": "how many people live in detroit ?", "program": "answer ( population_1 ( cityid ( 'detroit', _ ) ) )"}
+{"question": "what is the lowest point in wisconsin ?", "program": "answer ( lowest ( place ( loc_2 ( stateid ( 'wisconsin' ) ) ) ) )"}
+{"question": "what are the populations of states which border texas ?", "program": "answer ( population_1 ( state ( next_to_2 ( stateid ( 'texas' ) ) ) ) )"}
+{"question": "what is the capital of the state with the largest population density ?", "program": "answer ( capital ( loc_2 ( largest_one ( density_1 ( state ( all ) ) ) ) ) )"}
+{"question": "what is the highest elevation in the united states ?", "program": "answer ( highest ( place ( loc_2 ( countryid ( 'usa' ) ) ) ) )"}
+{"question": "what is the adjacent state of california ?", "program": "answer ( state ( next_to_2 ( stateid ( 'california' ) ) ) )"}
+{"question": "what are the states that border the state with the greatest population ?", "program": "answer ( state ( next_to_2 ( largest_one ( population_1 ( state ( all ) ) ) ) ) )"}
+{"question": "how many people live in the state with the largest population density ?", "program": "answer ( population_1 ( largest_one ( density_1 ( state ( all ) ) ) ) )"}
+{"question": "how many states are in the united states ?", "program": "answer ( count ( state ( loc_2 ( countryid ( 'usa' ) ) ) ) )"}
+{"question": "what is the capital of pennsylvania ?", "program": "answer ( capital ( loc_2 ( stateid ( 'pennsylvania' ) ) ) )"}
+{"question": "what is the lowest point in nebraska in meters ?", "program": "answer ( lowest ( place ( loc_2 ( stateid ( 'nebraska' ) ) ) ) )"}
+{"question": "what states border the state with the most cities ?", "program": "answer ( state ( next_to_2 ( most ( state ( loc_1 ( city ( all ) ) ) ) ) ) )"}
+{"question": "what states border states that border states that border states that border texas ?", "program": "answer ( state ( next_to_2 ( state ( next_to_2 ( state ( next_to_2 ( state ( next_to_2 ( stateid ( 'texas' ) ) ) ) ) ) ) ) ) )"}
+{"question": "what is the population in boston ?", "program": "answer ( population_1 ( cityid ( 'boston', _ ) ) )"}
+{"question": "what is the lowest point in the state of texas ?", "program": "answer ( lowest ( place ( loc_2 ( state ( stateid ( 'texas' ) ) ) ) ) )"}
+{"question": "what is the largest state ?", "program": "answer ( largest ( state ( all ) ) )"}
+{"question": "what rivers traverses the state which borders the most states ?", "program": "answer ( river ( traverse_2 ( most ( state ( next_to_2 ( state ( all ) ) ) ) ) ) )"}
+{"question": "which state has the most population ?", "program": "answer ( largest_one ( population_1 ( state ( all ) ) ) )"}
+{"question": "what is the area of the smallest state ?", "program": "answer ( area_1 ( smallest ( state ( all ) ) ) )"}
+{"question": "what is the capital of new hampshire ?", "program": "answer ( capital ( loc_2 ( stateid ( 'new hampshire' ) ) ) )"}
+{"question": "what cities in texas have the highest populations ?", "program": "answer ( largest_one ( population_1 ( city ( loc_2 ( stateid ( 'texas' ) ) ) ) ) )"}
+{"question": "what rivers flow through states that border the state with the largest population ?", "program": "answer ( river ( traverse_2 ( state ( next_to_2 ( largest_one ( population_1 ( state ( all ) ) ) ) ) ) ) )"}
+{"question": "what is the capital of the state with the highest point ?", "program": "answer ( capital ( loc_2 ( state ( loc_1 ( highest ( place ( all ) ) ) ) ) ) )"}
+{"question": "what are the major cities in wyoming ?", "program": "answer ( major ( city ( loc_2 ( stateid ( 'wyoming' ) ) ) ) )"}
+{"question": "where is austin ?", "program": "answer ( loc_1 ( cityid ( 'austin', _ ) ) )"}
+{"question": "name the longest river in us .", "program": "answer ( longest ( river ( loc_2 ( countryid ( 'usa' ) ) ) ) )"}
+{"question": "what is the lowest point in california ?", "program": "answer ( lowest ( place ( loc_2 ( stateid ( 'california' ) ) ) ) )"}
+{"question": "what are the populations of states through which the mississippi river runs ?", "program": "answer ( population_1 ( state ( traverse_1 ( river ( riverid ( 'mississippi' ) ) ) ) ) )"}
+{"question": "what rivers run through maine ?", "program": "answer ( river ( traverse_2 ( stateid ( 'maine' ) ) ) )"}
+{"question": "what is the population of the state with the largest area ?", "program": "answer ( population_1 ( largest_one ( area_1 ( state ( all ) ) ) ) )"}
+{"question": "where is scotts valley ?", "program": "answer ( loc_1 ( cityid ( 'scotts valley', _ ) ) )"}
+{"question": "give me the cities in virginia .", "program": "answer ( city ( loc_2 ( stateid ( 'virginia' ) ) ) )"}
+{"question": "how many major cities are in states bordering utah ?", "program": "answer ( count ( major ( city ( loc_2 ( state ( next_to_2 ( stateid ( 'utah' ) ) ) ) ) ) ) )"}
+{"question": "what is the capital of new york ?", "program": "answer ( capital ( loc_2 ( stateid ( 'new york' ) ) ) )"}
+{"question": "which states does the longest river cross ?", "program": "answer ( state ( traverse_1 ( longest ( river ( all ) ) ) ) )"}
+{"question": "which states have points that are higher than the highest point in texas ?", "program": "answer ( state ( loc_1 ( place ( higher_2 ( highest ( place ( loc_2 ( stateid ( 'texas' ) ) ) ) ) ) ) ) )"}
+{"question": "what states border arkansas ?", "program": "answer ( state ( next_to_2 ( stateid ( 'arkansas' ) ) ) )"}
+{"question": "what is the population density of south dakota ?", "program": "answer ( density_1 ( stateid ( 'south dakota' ) ) )"}
+{"question": "what is the highest point in states bordering georgia ?", "program": "answer ( highest ( place ( loc_2 ( state ( next_to_2 ( stateid ( 'georgia' ) ) ) ) ) ) )"}
+{"question": "how many states border colorado and border new mexico ?", "program": "answer ( count ( state ( intersection ( next_to_2 ( stateid ( 'colorado' ) ) , next_to_2 ( stateid ( 'new mexico' ) ) ) ) ) )"}
+{"question": "states bordering iowa ?", "program": "answer ( state ( next_to_2 ( stateid ( 'iowa' ) ) ) )"}
+{"question": "which state is the city denver located in ?", "program": "answer ( state ( loc_1 ( city ( cityid ( 'denver', _ ) ) ) ) )"}
+{"question": "where is new hampshire ?", "program": "answer ( loc_1 ( stateid ( 'new hampshire' ) ) )"}
+{"question": "what is the population of seattle washington ?", "program": "answer ( population_1 ( cityid ( 'seattle', 'wa' ) ) )"}
+{"question": "what are the populations of the major cities of texas ?", "program": "answer ( population_1 ( major ( city ( loc_2 ( stateid ( 'texas' ) ) ) ) ) )"}
+{"question": "what states have rivers running through them ?", "program": "answer ( state ( traverse_1 ( river ( all ) ) ) )"}
+{"question": "tell me what cities are in texas .", "program": "answer ( city ( loc_2 ( stateid ( 'texas' ) ) ) )"}
+{"question": "which state's capital city is the largest ?", "program": "answer ( state ( loc_1 ( largest ( city ( capital_1 ( state ( all ) ) ) ) ) ) )"}
+{"question": "what state is des moines located in ?", "program": "answer ( state ( loc_1 ( cityid ( 'des moines', _ ) ) ) )"}
+{"question": "how many people live in kalamazoo ?", "program": "answer ( population_1 ( cityid ( 'kalamazoo', _ ) ) )"}
+{"question": "how many people lived in austin ?", "program": "answer ( population_1 ( cityid ( 'austin', _ ) ) )"}
+{"question": "what cities in texas have the highest number of citizens ?", "program": "answer ( largest_one ( population_1 ( city ( loc_2 ( stateid ( 'texas' ) ) ) ) ) )"}
+{"question": "what is the elevation of death valley ?", "program": "answer ( elevation_1 ( placeid ( 'death valley' ) ) )"}
+{"question": "what is the largest city in alabama ?", "program": "answer ( largest ( city ( loc_2 ( stateid ( 'alabama' ) ) ) ) )"}
+{"question": "what are the biggest rivers in texas ?", "program": "answer ( longest ( river ( loc_2 ( stateid ( 'texas' ) ) ) ) )"}
